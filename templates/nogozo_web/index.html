@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="Nogozo">
+    <meta name="author" content="Anuj Sharma">
+	<meta property="og:site_name" content="NOGOZO" /> <!-- website name -->
+	<meta property="og:site" content="www.nogozo.com" /> <!-- website link -->
+	<meta property="og:title" content="NOGOZO"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="India's First Local Market E-Commerce Company" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="images/nogozopreview.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+    <title>NOGOZO</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'nogozo_web/css/style.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'nogozo_web/css/comming.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'nogozo_web/css/contact.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'nogozo_web/css/bootstrap.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'nogozo_web/css/swiper.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'nogozo_web/css/fontawesome-all.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'nogozo_web/css/magnific-popup.css' %}"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+    <link rel="icon" href="{% static 'nogozo_web/images/favicon.jpg' %}">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172442704-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172442704-1');
+</script>
+</head>
+<body data-spy="scroll" data-target=".fixed-top" style="background-color:#262431 ;">
+    
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <a class="navbar-brand logo-image" href=""><img src="{% static 'nogozo_web/images/logo.png' %}" style="opacity: 70%; width: 90px;" alt="alternative"></a> 
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#features">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#details">HOW WE WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="">ENTERTAINMENT</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT US</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href=""><span class="item-text">FOR USERS</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href=""><span class="item-text">FOR MERCHANTS</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    <br>
+    <br>
+    <div class="" style="margin-top: 100px; margin-bottom: 100px;">
+        <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+       
+      <div class="col-12 pb-5">
+      
+          <div id="featured" class="carousel slide carousel" data-ride="carousel">
+              <!--dots navigate-->
+              <ol class="carousel-indicators bottom-indicator">
+                <li data-target="#featured" data-slide-to="0" class="active"></li>
+                <li data-target="#featured" data-slide-to="1"></li>
+                <li data-target="#featured" data-slide-to="2"></li>
+                <li data-target="#featured" data-slide-to="3"></li>
+            </ol>
+              <!--carousel inner-->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                      <!--Start slider news-->
+                      <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                          <div class="card border-0 rounded-0 text-light overflow zoom">
+                              <div class="position-relative ">
+                                  <!--thumbnail img-->
+                                  <div class="ratio_left-cover-1 image-wrapper ">
+                                    <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                        <img class="img-fluid w-100"
+                                             src="{% static 'nogozo_web/images/social.webp' %}"
+                                             alt="Bootstrap news"
+                                             style="height: 500px;">
+                                    </a>
+                                  </div>
+                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                      <!--title-->
+                                      <a href="">
+                                          <h2 class="h3 post-title text-white my-1">Premium bootstrap 4 news portal magazine template perfect for news site</h2>
+                                      </a>
+                                      <!-- meta title -->
+                                      <div class="news-meta">
+                                          <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                          <span class="news-date">Oct 22, 2019</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!--End slider news-->
+                      
+                      <!--Start box news-->
+                      <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                          <div class="row">
+                              <!--news box-->
+                              <div class="col-6 pb-1 pt-0 pr-1">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="{% static 'nogozo_web/images/neptism.webp' %}"
+                                                       alt="bootstrap 4 wordpress theme"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Lifestyle</a>
+      
+                                              <!--title-->
+                                              <a href=""">
+                                                  <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <!--news box-->
+                              <div class="col-6 pb-1 pl-1 pt-0">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="{% static 'nogozo_web/images/music.jpg' %}"
+                                                       alt="bootstrap news template magazine"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Motocross</a>
+                                              <!--title-->
+                                              <a href="">
+                                                  <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <!--news box-->
+                              <div class="col-6 pb-1 pr-1 pt-1">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="{% static 'nogozo_web/images/rest.png' %}"
+                                                       alt="Bootstrap personal blog"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Fitness</a>
+                                              <!--title-->
+                                              <a href="">
+                                                  <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <!--news box-->
+                              <div class="col-6 pb-1 pl-1 pt-1">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="{% static 'nogozo_web/images/corona.jpg' %}"
+                                                       alt="simple blog bootstrap"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Adventure</a>
+                                              <!--title-->
+                                              <a href="">
+                                                  <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--end news box-->
+                          </div>
+                      </div>
+                      <!--End box news-->
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                      <div class="row">
+                          <!--Start slider news-->
+                          <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                              <div class="card border-0 rounded-0 text-light overflow zoom">
+                                  <div class="position-relative">
+                                      <!--thumbnail img-->
+                                      <div class="ratio_left-cover-1 image-wrapper">
+                                          <a href="">
+                                              <img class="img-fluid w-100"
+                                                   src="{% static 'nogozo_web/images/ent.jpg' %}"
+                                                   alt="Bootstrap news wordpress"
+                                                   style="height: 510px;">
+                                          </a>
+                                      </div>
+                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                          <!--title-->
+                                          <a href="">
+                                              <h2 class="h3 post-title text-white my-1">Premium bootstrap 4 news portal magazine template perfect for news site</h2>
+                                          </a>
+                                          <!-- meta title -->
+                                          <div class="news-meta">
+                                              <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                              <span class="news-date">Oct 22, 2019</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--End slider news-->
+                          
+                          <!--Start box news-->
+                          <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                              <div class="row">
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pt-0 pr-1">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="{% static 'nogozo_web/images/cow.jpg' %}"
+                                                           alt="bootstrap 4 wordpress theme"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Lifestyle</a>
+          
+                                                  <!--title-->
+                                                  <a href="">
+                                                      <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pl-1 pt-0">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="{% static 'nogozo_web/images/art.jpg' %}"
+                                                           alt="bootstrap news template magazine"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Motocross</a>
+                                                  <!--title-->
+                                                  <a href=>
+                                                      <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pr-1 pt-1">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="{% static 'nogozo_web/images/time.jpg' %}"
+                                                           alt="Bootstrap personal blog"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Fitness</a>
+                                                  <!--title-->
+                                                  <a href="">
+                                                      <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pl-1 pt-1">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="{% static 'nogozo_web/images/mask.jpg' %}"
+                                                           alt="simple blog bootstrap"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Adventure</a>
+                                                  <!--title-->
+                                                  <a href="">
+                                                      <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!--end news box-->
+                              </div>
+                          </div>
+                          <!--End box news-->
+                      </div>
+                  </div>
+              </div>
+              <!--end carousel inner-->
+              
+              <!--navigation-->
+              <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+
+              
+          </div>
+        
+      </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="item">
+          <a href="" style="text-decoration: none;" >
+          <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+              <div class="card-body">
+                  <div class="container">
+                    <h4 class="card-title" style="color: black;"><b>
+                     Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                    <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                    <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                    <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                 </div>
+                </div>
+              </div></a> 
+              <br>
+          </div> 
+            
+      
+            <div class="item">
+              <a href="" style="text-decoration: none;" >
+                <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                    <div class="card-body">
+                        <div class="container">
+                      <h4 class="card-title" style="color: black;"><b>
+                        Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                      <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                      <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                      <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                    </div>
+                    </div>
+                  </div></a> <br>
+            </div>
+      
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>            
+        </div>
+      </div>
+    </div>
+    </div>
+  <!-- /.container -->
+    </div>
+    <div class="footer" style="background-color: #1d1b25; color: #f1f1f8;">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>About NOGOZO</h4>
+                        <p>India's First Local Market E-Commerce Company</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Agra, Uttar Pradesh</p>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Important Links</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a style="color: aliceblue;">Read our </a><a class="turquoise" href="">Terms & Conditions</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a style="color: aliceblue;">Read our </a><a class="turquoise" href="">Privacy Policy</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Social Media</h4>
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/nogozoofficial/">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.instagram.com/nogozocare/">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.linkedin.com/company/nogozocare/">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    
+    <script src="{% static 'nogozo_web/js/jquery.min.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/popper.min.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/swiper.min.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/jquery.magnific-popup.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/morphext.min.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/validator.min.js' %}"></script>
+    <script src="{% static 'nogozo_web/js/scripts.js' %}"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     <script src="https://kit.fontawesome.com/1d8298542f.js" crossorigin="anonymous"></script>
+
+     <script>
+      // http://www.appelsiini.net/projects/viewport
+  // http://remysharp.com/2009/01/26/element-in-view-event-plugin/
+  // https://github.com/cobbweb/jquery.scrollwatch
+  var WINDOW_WIDTH = window.innerWidth || document.documentElement.clientWidth;
+  var WINDOW_HEIGHT = window.innerHeight || document.documentElement.clientHeight;
+  
+  var ScrollMonitor = function (options) {
+      this.items = [];
+      this.options = {};
+  
+      for (var key in options) {
+          this.options[key] = options[key];
+      }
+  };
+  
+  ScrollMonitor.prototype.add = function (node, options) {
+      var gap = options.gap || 0;
+      this.items.push({
+          node: node,
+          gap: +gap === gap ? [gap, gap, gap, gap] : gap,
+          callbacks: {
+              step: options.step || function (node, distance) {},
+              enter: options.enter || function (node, distance) {},
+              leave: options.leave || function (node, distance) {}
+          }
+      });
+      
+      this.resize();
+  };
+  
+  ScrollMonitor.prototype.resize = function () {
+      WINDOW_WIDTH = window.innerWidth || document.documentElement.clientWidth;
+      WINDOW_HEIGHT = window.innerHeight || document.documentElement.clientHeight;
+  
+      for (var i = 0; i < this.items.length; i++) {
+          var node = this.items[i].node;
+          this.items[i].rect = {
+              top: node.offsetTop,
+              left: node.offsetLeft,
+              width: node.clientWidth,
+              height: node.clientHeight
+          };
+      }
+  };
+  
+  ScrollMonitor.prototype.scroll = function (scrollX, scrollY) {
+  
+      for (var i = 0; i < this.items.length; i++) {
+          var item = this.items[i];
+          var rect = item.rect;
+          var gap = item.gap;
+  
+          var distance = {
+              top: (rect.top + rect.height) - scrollY,
+              left: (rect.left + rect.width) - scrollX,
+              right: rect.left - (WINDOW_WIDTH + scrollX),
+              bottom: rect.top - (WINDOW_HEIGHT + scrollY),
+          };
+  
+          var inView = (distance.right < -gap[1] && distance.left > gap[3] && distance.bottom < -gap[2] && distance.top > gap[0]);
+  
+          if (inView && !item.callbacks.once) {
+              item.callbacks.once = true;
+              item.callbacks.enter.call(this, item.node, distance);
+          }
+  
+          if (!inView && item.callbacks.once) {
+              item.callbacks.once = false;
+              item.callbacks.leave.call(this, item.node, distance);
+          }
+          
+          item.callbacks.step.call(this, item.node, distance);
+      }
+  };
+  
+  var monitor = new ScrollMonitor();
+  var nodeList = document.querySelectorAll('.item');
+  
+  for (var i = 0; i < nodeList.length; i++) {
+      monitor.add(nodeList[i], {
+          gap: 0,
+          enter: function (node, distance) {
+              node.classList.add('in-view');
+          },
+          leave: function (node, distance) {
+              node.classList.remove('in-view');
+          }
+      });
+  }
+  
+  window.onscroll = function () { monitor.scroll(window.pageXOffset, window.pageYOffset); };
+  window.onresize = function () { monitor.resize(); window.onscroll(); };
+  
+  window.onresize();
+  </script>
+
+</body>
+</html>
